@@ -1,11 +1,11 @@
-# Installing Node.js and discord.js
+＃安装node.js and discord.js
 
-## Installing Node.js
+##安装node.js
 
-To use discord.js, you'll need to install the latest LTS version of [Node.js](https://nodejs.org/).
+要使用discord.js，您需要安装[ node.js ] （https://nodejs.org/ ）的最新LTS版本。
 
-::: tip
-To check if you already have Node installed on your machine \(e.g., if you're using a VPS\), run `node -v` in your terminal. It is recommended to use the latest LTS version of Node.
+：：： 提示
+要检查您的计算机上是否已经安装了节点\（例如，如果使用VPS \），请在终端中运行` node -v` 。建议使用最新的LTS版本的节点。
 :::
 
 On Windows, it's as simple as installing any other program. Download the latest version from [the Node.js website](https://nodejs.org/), open the downloaded file, and follow the steps from the installer.
@@ -15,23 +15,23 @@ On macOS, either:
 - Download the latest version from [the Node.js website](https://nodejs.org/), open the package installer, and follow the instructions
 - Use a package manager like [Homebrew](https://brew.sh/) with the command `brew install node`
 
-On Linux, you can consult [this page](https://nodejs.org/en/download/package-manager/) to determine how you should install Node.
+在Linux上，您可以咨询[此页] （https://nodejs.org/en/download/package-manager/ ），以确定如何安装节点。
 
-## Preparing the essentials
+##准备必需品
 
-To use discord.js, you'll need to install it via npm \(Node's package manager\). npm comes with every Node installation, so you don't have to worry about installing that. However, before you install anything, you should set up a new project folder.
+要使用Discord.js，您需要通过NPM \（Node的Package Manager \）安装它。 NPM随附每个节点安装，因此您不必担心安装它。但是，在安装任何内容之前，您应该设置一个新的项目文件夹。
 
-Navigate to a suitable place on your machine and create a new folder named `discord-bot` (or whatever you want). Next you'll need to open your terminal.
+导航到机器上合适的位置，并创建一个名为“ Discord-Bot ”（或您想要的）的新文件夹。接下来，您需要打开终端。
 
-### Opening the terminal
+###打开终端
 
-::: tip
-If you use [Visual Studio Code](https://code.visualstudio.com/), you can press <code>Ctrl + `</code> (backtick) to open its integrated terminal.
+：：： 提示
+如果使用[ Visual Studio Code ] （https://code.visualstudio.com/ ），则可以按<code> ctrl +` </ code > （Backtick ）打开其集成的终端。
 :::
 
-On Windows, either:
+在Windows上，要么：
 
-- `Shift + Right-click` inside your project directory and choose the "Open command window here" option
+-  ` shift +右键单击`在项目目录内，然后选择“打开命令窗口”选项
 - Press `Win + R` and run `cmd.exe`, and then `cd` into your project directory
 
 On macOS, either:
